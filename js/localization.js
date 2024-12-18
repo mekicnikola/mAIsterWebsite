@@ -2,7 +2,6 @@ const translations = {
     en: {
         "title": "mAIster App: Your Home Repair Assistant",
         "meta-description": "Download the mAIster App - your personal assistant for home-related problems like plumbing, electrical work, mechanic repairs, and IT support. Get instant solutions on your phone!",
-        "meta-keywords": "app, application, home assistant, virtual assistant, home repair, plumbing services, plumber, electrical repairs, electrician, mechanic support, IT solutions, home maintenance, household repairs",
         "meta-author": "mAIster",
         "og-title": "Download mAIster App: Home Repair Help in Minutes",
         "og-description": "Fix home problems instantly with mAIster, your personal home repair assistant. Get expert guidance on plumbing, electrical work, mechanic repairs, and IT support!",
@@ -30,7 +29,6 @@ const translations = {
     sr: {
         "title": "mAIster Aplikacija: Vaš Asistent za Kućne Popravke",
         "meta-description": "Preuzmite mAIster aplikaciju - vaš lični asistent za kućne probleme poput vodoinstalacija, električnih radova, popravki automobila i IT podrške. Pronađite instant rešenja na svom telefonu!",
-        "meta-keywords": "aplikacija, virtuelni asistent, kućni pomoćnik, kućni popravci, vodoinstalaterske usluge, vodoinstalater, električarske popravke, električar, mehanička podrška, IT rešenja, održavanje domaćinstva, popravke domaćinstva",
         "meta-author": "mAIster",
         "og-title": "Preuzmite mAIster aplikaciju: Pomoć za kućne popravke u nekoliko minuta",
         "og-description": "Rešite kućne probleme odmah uz mAIster, vašeg ličnog asistenta za kućne popravke. Dobijte stručne savete za vodoinstalacije, električne radove, mehaničke popravke i IT podršku!",
