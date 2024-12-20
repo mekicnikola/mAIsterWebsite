@@ -27,11 +27,11 @@ const translations = {
         "footer-text": "© 2024 mAIster. All rights reserved."
     },
     sr: {
-        "title": "mAIster Aplikacija: Vaš Asistent za Kućne Popravke",
-        "meta-description": "Preuzmite mAIster aplikaciju - vaš lični asistent za kućne probleme poput vodoinstalacija, električnih radova, popravki automobila i IT podrške. Pronađite instant rešenja na svom telefonu!",
+        "title": "mAIstor Aplikacija: Vaš Asistent za Kućne Popravke",
+        "meta-description": "Preuzmite mAIstor aplikaciju - Vaš lični asistent za kućne probleme poput vodoinstalacija, električnih radova, popravki automobila i IT podrške. Pronađite instant rešenja na svom telefonu!",
         "meta-author": "mAIster",
-        "og-title": "Preuzmite mAIster aplikaciju: Pomoć za kućne popravke u nekoliko minuta",
-        "og-description": "Rešite kućne probleme odmah uz mAIster, vašeg ličnog asistenta za kućne popravke. Dobijte stručne savete za vodoinstalacije, električne radove, mehaničke popravke i IT podršku!",
+        "og-title": "Preuzmite mAIstor aplikaciju - Vaš lični asistent za kućne probleme poput vodoinstalacija, električnih radova, popravki automobila i IT podrške. Pronađite instant rešenja na svom telefonu!",
+        "og-description": "Rešite kućne probleme odmah uz mAIstora, Vašeg ličnog asistenta za kućne popravke. Dobijte stručne savete za vodoinstalacije, električne radove, mehaničke popravke i IT podršku!",
         "app-sufix": "stor",
         "features": "Funkcije",
         "privacy": "Privatnost",
@@ -57,7 +57,7 @@ const translations = {
 
 function getLanguageFromUrl() {
     const params = new URLSearchParams(window.location.search);
-    return params.get('lang') || 'en';  // Default to 'en' if no parameter is set
+    return params.get('lang') || 'en';
 }
 
 function setLanguage(language) {
@@ -76,7 +76,6 @@ document.getElementById('language-select').addEventListener('change', function (
     setLanguage(selectedLang);
 });
 
-// Initialize with language from URL or default
 document.addEventListener("DOMContentLoaded", () => {
     const initialLang = getLanguageFromUrl();
     document.getElementById('language-select').value = initialLang;
