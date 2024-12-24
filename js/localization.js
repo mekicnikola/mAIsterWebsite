@@ -24,6 +24,8 @@ const translations = {
         "feature-2-details": "Based on the initial request, the assistant asks additional questions to better determine the nature of the problem.",
         "feature-3-heading": "Get professional help",
         "feature-3-details": "After everything is filled in, the assistant presents the potential causes and solutions to the problem as well as the required tools, required time and video materials.",
+        "supported-platforms": "Supported Platforms",
+        "coming-soon": "Coming soon",
         "footer-text": "© 2024 mAIster. All rights reserved."
     },
     sr: {
@@ -51,6 +53,8 @@ const translations = {
         "feature-2-details": "Na osnovu početnog zahteva, asistent postavlja dodatna pitanja kako bi bolje odredio prirodu problema.",
         "feature-3-heading": "Iskoristite profesionalnu pomoć",
         "feature-3-details": "Nakon što su sva polja popunjena, asistent prikazuje potencijalne uzroke i rešenja problema kao i potrebne alate, potrebno vreme i video materijale.",
+        "supported-platforms": "Podržane platforme",
+        "coming-soon": "Uskoro",
         "footer-text": "© 2024 mAIstor. Sva prava zadržana."
     }
 };
